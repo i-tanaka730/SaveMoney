@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52C4998C15D277750038D84C /* test.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 52C4998B15D277750038D84C /* test.sqlite */; };
+		CEA17B59158C782100DB92CE /* MoneyInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA17B54158C782100DB92CE /* MoneyInfoViewController.xib */; };
+		CEA17B5A158C782100DB92CE /* SaveMoneyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA17B55158C782100DB92CE /* SaveMoneyViewController.xib */; };
+		CEA850561591D8DF00D27C6E /* CalendarLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA850501591D60200D27C6E /* CalendarLogic.m */; };
+		CEA850571591D8DF00D27C6E /* CalendarMonth.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA850521591D60200D27C6E /* CalendarMonth.m */; };
+		CEA8506D1591DDDD00D27C6E /* CalendarArrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA850591591DDDD00D27C6E /* CalendarArrowLeft.png */; };
+		CEA8506E1591DDDD00D27C6E /* CalendarArrowLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8505A1591DDDD00D27C6E /* CalendarArrowLeft@2x.png */; };
+		CEA8506F1591DDDD00D27C6E /* CalendarArrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8505B1591DDDD00D27C6E /* CalendarArrowRight.png */; };
+		CEA850701591DDDD00D27C6E /* CalendarArrowRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8505C1591DDDD00D27C6E /* CalendarArrowRight@2x.png */; };
+		CEA850711591DDDD00D27C6E /* CalendarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8505D1591DDDD00D27C6E /* CalendarBackground.png */; };
+		CEA850721591DDDD00D27C6E /* CalendarBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8505E1591DDDD00D27C6E /* CalendarBackground@2x.png */; };
+		CEA850731591DDDD00D27C6E /* CalendarDaySelected.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8505F1591DDDD00D27C6E /* CalendarDaySelected.png */; };
+		CEA850741591DDDD00D27C6E /* CalendarDaySelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA850601591DDDD00D27C6E /* CalendarDaySelected@2x.png */; };
+		CEA850751591DDDD00D27C6E /* CalendarDayTile.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA850611591DDDD00D27C6E /* CalendarDayTile.png */; };
+		CEA850761591DDDD00D27C6E /* CalendarDayTile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA850621591DDDD00D27C6E /* CalendarDayTile@2x.png */; };
+		CEA850771591DDDD00D27C6E /* CalendarDayToday.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA850631591DDDD00D27C6E /* CalendarDayToday.png */; };
+		CEA850781591DDDD00D27C6E /* CalendarDayToday@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA850641591DDDD00D27C6E /* CalendarDayToday@2x.png */; };
+		CEA850791591DDDD00D27C6E /* CalendarDayTodaySelected.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA850651591DDDD00D27C6E /* CalendarDayTodaySelected.png */; };
+		CEA8507A1591DDDD00D27C6E /* CalendarDayTodaySelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA850661591DDDD00D27C6E /* CalendarDayTodaySelected@2x.png */; };
+		CEA8507B1591DDDD00D27C6E /* CalendarShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA850671591DDDD00D27C6E /* CalendarShadow.png */; };
+		CEA8507C1591DDDD00D27C6E /* CalendarShadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA850681591DDDD00D27C6E /* CalendarShadow@2x.png */; };
+		CEA8507D1591DDDD00D27C6E /* CalendarTitleColor.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA850691591DDDD00D27C6E /* CalendarTitleColor.png */; };
+		CEA8507E1591DDDD00D27C6E /* CalendarTitleColor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8506A1591DDDD00D27C6E /* CalendarTitleColor@2x.png */; };
+		CEA8507F1591DDDD00D27C6E /* CalendarTitleDimColor.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8506B1591DDDD00D27C6E /* CalendarTitleDimColor.png */; };
+		CEA850801591DDDD00D27C6E /* CalendarTitleDimColor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA8506C1591DDDD00D27C6E /* CalendarTitleDimColor@2x.png */; };
+		CEAA15A81590828500CFA3AC /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CEAA15A71590828500CFA3AC /* libsqlite3.0.dylib */; };
+		CEAA15C2159084AE00CFA3AC /* MoneyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAA15B0159084AE00CFA3AC /* MoneyInfoViewController.m */; };
+		CEAA15C3159084AE00CFA3AC /* SaveMoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAA15B2159084AE00CFA3AC /* SaveMoneyViewController.m */; };
+		CEAA15C4159084AE00CFA3AC /* SaveMoneyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAA15B5159084AE00CFA3AC /* SaveMoneyAppDelegate.m */; };
+		CEAA15C5159084AE00CFA3AC /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAA15B9159084AE00CFA3AC /* FMDatabase.m */; };
+		CEAA15C6159084AE00CFA3AC /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAA15BB159084AE00CFA3AC /* FMDatabaseAdditions.m */; };
+		CEAA15C7159084AE00CFA3AC /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAA15BD159084AE00CFA3AC /* FMDatabasePool.m */; };
+		CEAA15C8159084AE00CFA3AC /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAA15BF159084AE00CFA3AC /* FMDatabaseQueue.m */; };
+		CEAA15C9159084AE00CFA3AC /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAA15C1159084AE00CFA3AC /* FMResultSet.m */; };
+		CEFAA95415830674003863B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFAA95315830674003863B1 /* UIKit.framework */; };
+		CEFAA95615830674003863B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFAA95515830674003863B1 /* Foundation.framework */; };
+		CEFAA95815830674003863B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEFAA95715830674003863B1 /* CoreGraphics.framework */; };
+		CEFAA95E15830674003863B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CEFAA95C15830674003863B1 /* InfoPlist.strings */; };
+		CEFAA96015830674003863B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFAA95F15830674003863B1 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52C4998B15D277750038D84C /* test.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.sqlite; sourceTree = "<group>"; };
+		CEA17B54158C782100DB92CE /* MoneyInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoneyInfoViewController.xib; sourceTree = "<group>"; };
+		CEA17B55158C782100DB92CE /* SaveMoneyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SaveMoneyViewController.xib; sourceTree = "<group>"; };
+		CEA8504F1591D60200D27C6E /* CalendarLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarLogic.h; sourceTree = "<group>"; };
+		CEA850501591D60200D27C6E /* CalendarLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarLogic.m; sourceTree = "<group>"; };
+		CEA850511591D60200D27C6E /* CalendarMonth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarMonth.h; sourceTree = "<group>"; };
+		CEA850521591D60200D27C6E /* CalendarMonth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarMonth.m; sourceTree = "<group>"; };
+		CEA850541591D77F00D27C6E /* CalendarLogicDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarLogicDelegate.h; sourceTree = "<group>"; };
+		CEA850551591D82400D27C6E /* CalendarViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarViewControllerDelegate.h; sourceTree = "<group>"; };
+		CEA850591591DDDD00D27C6E /* CalendarArrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarArrowLeft.png; sourceTree = "<group>"; };
+		CEA8505A1591DDDD00D27C6E /* CalendarArrowLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarArrowLeft@2x.png"; sourceTree = "<group>"; };
+		CEA8505B1591DDDD00D27C6E /* CalendarArrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarArrowRight.png; sourceTree = "<group>"; };
+		CEA8505C1591DDDD00D27C6E /* CalendarArrowRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarArrowRight@2x.png"; sourceTree = "<group>"; };
+		CEA8505D1591DDDD00D27C6E /* CalendarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarBackground.png; sourceTree = "<group>"; };
+		CEA8505E1591DDDD00D27C6E /* CalendarBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarBackground@2x.png"; sourceTree = "<group>"; };
+		CEA8505F1591DDDD00D27C6E /* CalendarDaySelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarDaySelected.png; sourceTree = "<group>"; };
+		CEA850601591DDDD00D27C6E /* CalendarDaySelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarDaySelected@2x.png"; sourceTree = "<group>"; };
+		CEA850611591DDDD00D27C6E /* CalendarDayTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarDayTile.png; sourceTree = "<group>"; };
+		CEA850621591DDDD00D27C6E /* CalendarDayTile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarDayTile@2x.png"; sourceTree = "<group>"; };
+		CEA850631591DDDD00D27C6E /* CalendarDayToday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarDayToday.png; sourceTree = "<group>"; };
+		CEA850641591DDDD00D27C6E /* CalendarDayToday@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarDayToday@2x.png"; sourceTree = "<group>"; };
+		CEA850651591DDDD00D27C6E /* CalendarDayTodaySelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarDayTodaySelected.png; sourceTree = "<group>"; };
+		CEA850661591DDDD00D27C6E /* CalendarDayTodaySelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarDayTodaySelected@2x.png"; sourceTree = "<group>"; };
+		CEA850671591DDDD00D27C6E /* CalendarShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarShadow.png; sourceTree = "<group>"; };
+		CEA850681591DDDD00D27C6E /* CalendarShadow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarShadow@2x.png"; sourceTree = "<group>"; };
+		CEA850691591DDDD00D27C6E /* CalendarTitleColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarTitleColor.png; sourceTree = "<group>"; };
+		CEA8506A1591DDDD00D27C6E /* CalendarTitleColor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarTitleColor@2x.png"; sourceTree = "<group>"; };
+		CEA8506B1591DDDD00D27C6E /* CalendarTitleDimColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CalendarTitleDimColor.png; sourceTree = "<group>"; };
+		CEA8506C1591DDDD00D27C6E /* CalendarTitleDimColor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CalendarTitleDimColor@2x.png"; sourceTree = "<group>"; };
+		CEAA15A71590828500CFA3AC /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		CEAA15AF159084AE00CFA3AC /* MoneyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyInfoViewController.h; sourceTree = "<group>"; };
+		CEAA15B0159084AE00CFA3AC /* MoneyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyInfoViewController.m; sourceTree = "<group>"; };
+		CEAA15B1159084AE00CFA3AC /* SaveMoneyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveMoneyViewController.h; sourceTree = "<group>"; };
+		CEAA15B2159084AE00CFA3AC /* SaveMoneyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveMoneyViewController.m; sourceTree = "<group>"; };
+		CEAA15B4159084AE00CFA3AC /* SaveMoneyAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveMoneyAppDelegate.h; sourceTree = "<group>"; };
+		CEAA15B5159084AE00CFA3AC /* SaveMoneyAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveMoneyAppDelegate.m; sourceTree = "<group>"; };
+		CEAA15B8159084AE00CFA3AC /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		CEAA15B9159084AE00CFA3AC /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		CEAA15BA159084AE00CFA3AC /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		CEAA15BB159084AE00CFA3AC /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		CEAA15BC159084AE00CFA3AC /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		CEAA15BD159084AE00CFA3AC /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		CEAA15BE159084AE00CFA3AC /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		CEAA15BF159084AE00CFA3AC /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		CEAA15C0159084AE00CFA3AC /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		CEAA15C1159084AE00CFA3AC /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		CEFAA94F15830674003863B1 /* SaveMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaveMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFAA95315830674003863B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CEFAA95515830674003863B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CEFAA95715830674003863B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CEFAA95B15830674003863B1 /* SaveMoney-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SaveMoney-Info.plist"; sourceTree = "<group>"; };
+		CEFAA95D15830674003863B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CEFAA95F15830674003863B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEFAA96115830674003863B1 /* SaveMoney-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SaveMoney-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFAA94C15830674003863B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEAA15A81590828500CFA3AC /* libsqlite3.0.dylib in Frameworks */,
+				CEFAA95415830674003863B1 /* UIKit.framework in Frameworks */,
+				CEFAA95615830674003863B1 /* Foundation.framework in Frameworks */,
+				CEFAA95815830674003863B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA17B4C158C782100DB92CE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CEAA15AE159084AE00CFA3AC /* Controller */,
+				CEAA15B3159084AE00CFA3AC /* Delegate */,
+				CEAA15B6159084AE00CFA3AC /* Lib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CEA17B53158C782100DB92CE /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				52C4998B15D277750038D84C /* test.sqlite */,
+				CEA17B55158C782100DB92CE /* SaveMoneyViewController.xib */,
+				CEA17B54158C782100DB92CE /* MoneyInfoViewController.xib */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		CEA850581591DDDD00D27C6E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEA850591591DDDD00D27C6E /* CalendarArrowLeft.png */,
+				CEA8505A1591DDDD00D27C6E /* CalendarArrowLeft@2x.png */,
+				CEA8505B1591DDDD00D27C6E /* CalendarArrowRight.png */,
+				CEA8505C1591DDDD00D27C6E /* CalendarArrowRight@2x.png */,
+				CEA8505D1591DDDD00D27C6E /* CalendarBackground.png */,
+				CEA8505E1591DDDD00D27C6E /* CalendarBackground@2x.png */,
+				CEA8505F1591DDDD00D27C6E /* CalendarDaySelected.png */,
+				CEA850601591DDDD00D27C6E /* CalendarDaySelected@2x.png */,
+				CEA850611591DDDD00D27C6E /* CalendarDayTile.png */,
+				CEA850621591DDDD00D27C6E /* CalendarDayTile@2x.png */,
+				CEA850631591DDDD00D27C6E /* CalendarDayToday.png */,
+				CEA850641591DDDD00D27C6E /* CalendarDayToday@2x.png */,
+				CEA850651591DDDD00D27C6E /* CalendarDayTodaySelected.png */,
+				CEA850661591DDDD00D27C6E /* CalendarDayTodaySelected@2x.png */,
+				CEA850671591DDDD00D27C6E /* CalendarShadow.png */,
+				CEA850681591DDDD00D27C6E /* CalendarShadow@2x.png */,
+				CEA850691591DDDD00D27C6E /* CalendarTitleColor.png */,
+				CEA8506A1591DDDD00D27C6E /* CalendarTitleColor@2x.png */,
+				CEA8506B1591DDDD00D27C6E /* CalendarTitleDimColor.png */,
+				CEA8506C1591DDDD00D27C6E /* CalendarTitleDimColor@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CEAA15AE159084AE00CFA3AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEAA15B1159084AE00CFA3AC /* SaveMoneyViewController.h */,
+				CEAA15B2159084AE00CFA3AC /* SaveMoneyViewController.m */,
+				CEAA15AF159084AE00CFA3AC /* MoneyInfoViewController.h */,
+				CEAA15B0159084AE00CFA3AC /* MoneyInfoViewController.m */,
+				CEA8504F1591D60200D27C6E /* CalendarLogic.h */,
+				CEA850501591D60200D27C6E /* CalendarLogic.m */,
+				CEA850511591D60200D27C6E /* CalendarMonth.h */,
+				CEA850521591D60200D27C6E /* CalendarMonth.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEAA15B3159084AE00CFA3AC /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				CEAA15B5159084AE00CFA3AC /* SaveMoneyAppDelegate.m */,
+				CEAA15B4159084AE00CFA3AC /* SaveMoneyAppDelegate.h */,
+				CEA850551591D82400D27C6E /* CalendarViewControllerDelegate.h */,
+				CEA850541591D77F00D27C6E /* CalendarLogicDelegate.h */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		CEAA15B6159084AE00CFA3AC /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				CEAA15B7159084AE00CFA3AC /* FMDB */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		CEAA15B7159084AE00CFA3AC /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				CEAA15B8159084AE00CFA3AC /* FMDatabase.h */,
+				CEAA15B9159084AE00CFA3AC /* FMDatabase.m */,
+				CEAA15BA159084AE00CFA3AC /* FMDatabaseAdditions.h */,
+				CEAA15BB159084AE00CFA3AC /* FMDatabaseAdditions.m */,
+				CEAA15BC159084AE00CFA3AC /* FMDatabasePool.h */,
+				CEAA15BD159084AE00CFA3AC /* FMDatabasePool.m */,
+				CEAA15BE159084AE00CFA3AC /* FMDatabaseQueue.h */,
+				CEAA15BF159084AE00CFA3AC /* FMDatabaseQueue.m */,
+				CEAA15C0159084AE00CFA3AC /* FMResultSet.h */,
+				CEAA15C1159084AE00CFA3AC /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		CEFAA94415830674003863B1 = {
+			isa = PBXGroup;
+			children = (
+				CEFAA95915830674003863B1 /* SaveMoney */,
+				CEFAA95215830674003863B1 /* Frameworks */,
+				CEFAA95015830674003863B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFAA95015830674003863B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAA94F15830674003863B1 /* SaveMoney.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFAA95215830674003863B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEAA15A71590828500CFA3AC /* libsqlite3.0.dylib */,
+				CEFAA95315830674003863B1 /* UIKit.framework */,
+				CEFAA95515830674003863B1 /* Foundation.framework */,
+				CEFAA95715830674003863B1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFAA95915830674003863B1 /* SaveMoney */ = {
+			isa = PBXGroup;
+			children = (
+				CEA850581591DDDD00D27C6E /* Images */,
+				CEA17B4C158C782100DB92CE /* Classes */,
+				CEA17B53158C782100DB92CE /* Resouces */,
+				CEFAA95A15830674003863B1 /* Supporting Files */,
+			);
+			path = SaveMoney;
+			sourceTree = "<group>";
+		};
+		CEFAA95A15830674003863B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFAA95B15830674003863B1 /* SaveMoney-Info.plist */,
+				CEFAA95C15830674003863B1 /* InfoPlist.strings */,
+				CEFAA95F15830674003863B1 /* main.m */,
+				CEFAA96115830674003863B1 /* SaveMoney-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFAA94E15830674003863B1 /* SaveMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFAA96D15830674003863B1 /* Build configuration list for PBXNativeTarget "SaveMoney" */;
+			buildPhases = (
+				CEFAA94B15830674003863B1 /* Sources */,
+				CEFAA94C15830674003863B1 /* Frameworks */,
+				CEFAA94D15830674003863B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SaveMoney;
+			productName = SaveMoney;
+			productReference = CEFAA94F15830674003863B1 /* SaveMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFAA94615830674003863B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SaveMoney;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CEFAA94915830674003863B1 /* Build configuration list for PBXProject "SaveMoney" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CEFAA94415830674003863B1;
+			productRefGroup = CEFAA95015830674003863B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFAA94E15830674003863B1 /* SaveMoney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFAA94D15830674003863B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFAA95E15830674003863B1 /* InfoPlist.strings in Resources */,
+				CEA17B59158C782100DB92CE /* MoneyInfoViewController.xib in Resources */,
+				CEA17B5A158C782100DB92CE /* SaveMoneyViewController.xib in Resources */,
+				CEA8506D1591DDDD00D27C6E /* CalendarArrowLeft.png in Resources */,
+				CEA8506E1591DDDD00D27C6E /* CalendarArrowLeft@2x.png in Resources */,
+				CEA8506F1591DDDD00D27C6E /* CalendarArrowRight.png in Resources */,
+				CEA850701591DDDD00D27C6E /* CalendarArrowRight@2x.png in Resources */,
+				CEA850711591DDDD00D27C6E /* CalendarBackground.png in Resources */,
+				CEA850721591DDDD00D27C6E /* CalendarBackground@2x.png in Resources */,
+				CEA850731591DDDD00D27C6E /* CalendarDaySelected.png in Resources */,
+				CEA850741591DDDD00D27C6E /* CalendarDaySelected@2x.png in Resources */,
+				CEA850751591DDDD00D27C6E /* CalendarDayTile.png in Resources */,
+				CEA850761591DDDD00D27C6E /* CalendarDayTile@2x.png in Resources */,
+				CEA850771591DDDD00D27C6E /* CalendarDayToday.png in Resources */,
+				CEA850781591DDDD00D27C6E /* CalendarDayToday@2x.png in Resources */,
+				CEA850791591DDDD00D27C6E /* CalendarDayTodaySelected.png in Resources */,
+				CEA8507A1591DDDD00D27C6E /* CalendarDayTodaySelected@2x.png in Resources */,
+				CEA8507B1591DDDD00D27C6E /* CalendarShadow.png in Resources */,
+				CEA8507C1591DDDD00D27C6E /* CalendarShadow@2x.png in Resources */,
+				CEA8507D1591DDDD00D27C6E /* CalendarTitleColor.png in Resources */,
+				CEA8507E1591DDDD00D27C6E /* CalendarTitleColor@2x.png in Resources */,
+				CEA8507F1591DDDD00D27C6E /* CalendarTitleDimColor.png in Resources */,
+				CEA850801591DDDD00D27C6E /* CalendarTitleDimColor@2x.png in Resources */,
+				52C4998C15D277750038D84C /* test.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFAA94B15830674003863B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA850561591D8DF00D27C6E /* CalendarLogic.m in Sources */,
+				CEA850571591D8DF00D27C6E /* CalendarMonth.m in Sources */,
+				CEFAA96015830674003863B1 /* main.m in Sources */,
+				CEAA15C2159084AE00CFA3AC /* MoneyInfoViewController.m in Sources */,
+				CEAA15C3159084AE00CFA3AC /* SaveMoneyViewController.m in Sources */,
+				CEAA15C4159084AE00CFA3AC /* SaveMoneyAppDelegate.m in Sources */,
+				CEAA15C5159084AE00CFA3AC /* FMDatabase.m in Sources */,
+				CEAA15C6159084AE00CFA3AC /* FMDatabaseAdditions.m in Sources */,
+				CEAA15C7159084AE00CFA3AC /* FMDatabasePool.m in Sources */,
+				CEAA15C8159084AE00CFA3AC /* FMDatabaseQueue.m in Sources */,
+				CEAA15C9159084AE00CFA3AC /* FMResultSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEFAA95C15830674003863B1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFAA95D15830674003863B1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFAA96B15830674003863B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Youichi Okamoto (9M87A6422G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Youichi Okamoto (9M87A6422G)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "B468594A-C1D3-4CFC-8BC1-89260781ABBF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B468594A-C1D3-4CFC-8BC1-89260781ABBF";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEFAA96C15830674003863B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Youichi Okamoto (9M87A6422G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Youichi Okamoto (9M87A6422G)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "B468594A-C1D3-4CFC-8BC1-89260781ABBF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "B468594A-C1D3-4CFC-8BC1-89260781ABBF";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFAA96E15830674003863B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaveMoney/SaveMoney-Prefix.pch";
+				INFOPLIST_FILE = "SaveMoney/SaveMoney-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.itanaka730.SaveMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CEFAA96F15830674003863B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SaveMoney/SaveMoney-Prefix.pch";
+				INFOPLIST_FILE = "SaveMoney/SaveMoney-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.itanaka730.SaveMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFAA94915830674003863B1 /* Build configuration list for PBXProject "SaveMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFAA96B15830674003863B1 /* Debug */,
+				CEFAA96C15830674003863B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFAA96D15830674003863B1 /* Build configuration list for PBXNativeTarget "SaveMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFAA96E15830674003863B1 /* Debug */,
+				CEFAA96F15830674003863B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFAA94615830674003863B1 /* Project object */;
+}
