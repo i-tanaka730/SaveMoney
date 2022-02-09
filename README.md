@@ -1,7 +1,7 @@
 # SaveMoney
 
 ## Overview
-This is app to manage your money.
+This is application to manage your money.
 
 ## Requirement
 - XCode
